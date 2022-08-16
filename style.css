@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.description{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-weight: 700;
+}
+.tasks-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+
+.task-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.task-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task4 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "first second third"
+        "first fourth fourth"
+        "first fifth sixth";
+    width: 600px;
+    height: 300px;
+}
+
+.task4>.block {
+    border: 1px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+button {
+    position: relative;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+button:active {
+    top: 2px;
+}
+
+
+.first {
+    grid-area: first;
+    height: 300px;
+    background-color: red;
+}
+
+.second {
+    grid-area: second;
+    height: 50px;
+    background-color: blue;
+}
+
+.third {
+    grid-area: third;
+    height: 50px;
+    background-color: green;
+}
+
+.fourth {
+    grid-area: fourth;
+    height: 200px;
+    background-color: purple;
+}
+
+.fifth {
+    grid-area: fifth;
+    height: 50px;
+    background-color: orange;
+}
+
+.sixth {
+    grid-area: sixth;
+    height: 50px;
+    background-color: burlywood;
+}

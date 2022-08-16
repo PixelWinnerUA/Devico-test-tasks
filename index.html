@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devico Test Tasks</title>
+    <link rel="icon" type="image/x-icon" href="./MyLogo.svg">
+    <script src="./js/task1.js" defer></script>
+    <script src="./js/task2.js" defer></script>
+    <script src="./js/task3.js" defer></script>
+    <script src="./js/task4.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="description">To see the result of Task1, Task2, Task3 open the console.</div>
+    <div class="tasks-container">
+        <div class="task-block">
+            <p class="task-title">Task 1</p>
+            <button onclick={console.log(task1())}>Task 1</button>
+        </div>
+        <div class="task-block">
+            <p class="task-title">Task 2</p>
+            <button onclick={traverseTree(initialTree)}>Task 2</button>
+            <button onclick={console.log(JSON.stringify(initialTree))}>Task 2 Console</button>
+        </div>
+        <div class="task-block">
+            <p class="task-title">Task 3</p>
+            <button onclick={console.log(createMatrix(5))}>Task 3</button>
+        </div>
+        <div class="task-block">
+            <p class="task-title">Task 4</p>
+            <div class="task4">
+                <div class="block first"></div>
+                <div class="block second"></div>
+                <div class="block third"></div>
+                <div class="block fourth"></div>
+                <div class="block fifth"></div>
+                <div class="block sixth"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
