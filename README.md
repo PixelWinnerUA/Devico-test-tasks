@@ -8,7 +8,7 @@
 
 ## Demo link
 
-* 
+* https://pixelwinnerua.github.io/Devico-test-tasks/
 
 ---
 
