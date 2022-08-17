@@ -4,7 +4,7 @@
 
 - You can see the result of the work using the demo link.
 
-- The text of the tasks can be seen under the demo link.
+- The description of the tasks can be seen under the demo link.
 
 ## Demo link
 
